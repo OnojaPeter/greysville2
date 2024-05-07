@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body{
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-color: #161616; /* Fallback color in case gradients are not supported */
+    background-image: linear-gradient(45deg, rgb(10, 10, 10) 0%, rgb(10, 10, 10) 60%,rgb(35, 35, 35) 60%, rgb(35, 35, 35) 62%,rgb(60, 60, 60) 62%, rgb(60, 60, 60) 76%,rgb(85, 85, 85) 76%, rgb(85, 85, 85) 77%,rgb(109, 109, 109) 77%, rgb(109, 109, 109) 86%,rgb(134, 134, 134) 86%, rgb(134, 134, 134) 92%,rgb(159, 159, 159) 92%, rgb(159, 159, 159) 100%),linear-gradient(112.5deg, rgb(10, 10, 10) 0%, rgb(10, 10, 10) 60%,rgb(35, 35, 35) 60%, rgb(35, 35, 35) 62%,rgb(60, 60, 60) 62%, rgb(60, 60, 60) 76%,rgb(85, 85, 85) 76%, rgb(85, 85, 85) 77%,rgb(109, 109, 109) 77%, rgb(109, 109, 109) 86%,rgb(134, 134, 134) 86%, rgb(134, 134, 134) 92%,rgb(159, 159, 159) 92%, rgb(159, 159, 159) 100%),linear-gradient(45deg, rgb(10, 10, 10) 0%, rgb(10, 10, 10) 60%,rgb(35, 35, 35) 60%, rgb(35, 35, 35) 62%,rgb(60, 60, 60) 62%, rgb(60, 60, 60) 76%,rgb(85, 85, 85) 76%, rgb(85, 85, 85) 77%,rgb(109, 109, 109) 77%, rgb(109, 109, 109) 86%,rgb(134, 134, 134) 86%, rgb(134, 134, 134) 92%,rgb(159, 159, 159) 92%, rgb(159, 159, 159) 100%),linear-gradient(90deg, rgb(22, 22, 22),rgb(169, 169, 169)); background-blend-mode:overlay,overlay,overlay,normal;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+h1,h2,h3 {
+    font-family: "Zen Dots", sans-serif;
+}
+h1,h2 {
+    line-height: 1.5 !important;
+}
+
+p{
+    font-family: "Inter", sans-serif;
+}
+#igniteJourney span {
+    font-weight: 700;
+}
